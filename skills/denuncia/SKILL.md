@@ -165,6 +165,8 @@ Se o número de pessoas exceder o limite legal, registre o excedente na análise
 
 - Não use pesquisa na internet, jurisprudência, notícias, bancos de dados ou memória geral para completar fatos do caso.
 
+- Não inclua fotografias, imagens, esquemas ou gráficos na minuta da denúncia, ainda que constem do arquivo-fonte ou de `exemplos/`. A minuta é sempre texto em prosa corrida; referencie a prova visual apenas por remissão a fls. (ex.: "cf. fotografias de fls. X"), nunca a reproduza ou descreva graficamente no corpo da peça. Observe o formato de `templates/denuncia.md` e de `exemplos/` quanto a isso.
+
 ## Elementos adicionais do usuário
 
 Não pergunte proativamente se há elementos adicionais. Se o usuário já tiver incluído no pedido alguma circunstância, qualificadora, agravante, tese, pedido específico ou ponto de inclusão obrigatória, trate essa indicação como diretriz vinculante e fonte legítima complementar.
@@ -187,9 +189,9 @@ Vítimas: {{Nome, iniciais quando exigido, ou descrição}}
 
 Fato e capitulação: {{síntese}} / {{dispositivo(s) violado(s), um por conduta e vítima}} / concurso ({{Sim — modalidade}} ou Não)
 
-Provas relevantes: {{laudo / auto / foto / vídeo — fls. X}}
+Provas relevantes: {{listar TODAS as provas relevantes constantes do arquivo-fonte — laudo, auto, foto, vídeo, esquema, gráfico etc. — uma por linha, no formato "tipo — fls. X — conclusão principal"}}
 
-Depoimentos: {{Nome}} (fls. {{X}}): {{resumo em até dois parágrafos}}
+Depoimentos: {{listar TODOS os depoimentos constantes do arquivo-fonte, um por pessoa ouvida, no formato "Nome (fls. X): resumo do conteúdo, com destaque para o que é relevante ao processo"}}
 
 Rol de testemunhas: {{Nome}} — {{categoria}} — fls. {{X}}
 
@@ -200,6 +202,8 @@ OCR: {{“Não foi necessário” ou lista das páginas em que o OCR foi aplicad
 Lacunas: {{descrever ou “Nenhuma”}}
 
 ```
+
+A análise preliminar deve referenciar todas as provas relevantes constantes do arquivo-fonte, com a conclusão principal de cada uma, e todo e qualquer depoimento constante do arquivo-fonte, com breve resumo do conteúdo e destaque para o que é relevante ao processo. Não omita prova ou depoimento por brevidade.
 
 Ao processar um único caso, apresente esse bloco antes do texto da denúncia. Se o usuário pedir o processamento de vários casos, não reproduza o bloco completo de cada peça na resposta: ao final, informe, para cada uma, o exemplo utilizado e as lacunas ou pendências.
 
