@@ -21,26 +21,28 @@
 - Não reutilize nomes, fatos ou números dos exemplos da base de conhecimento; eles servem apenas de referência de forma.
 
 <template>
-EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}
+MM. Juiz:
 
-Processo nº {{número CNJ}}
+1. {{réu_ou_réus}} foi(ram) denunciado(s) e está(ão) sendo processado(s) como incurso(s) {{capitulacao_penal}}.
+De acordo com a denúncia, {{resumo_da_imputacao}}.
 
-O MINISTÉRIO PÚBLICO, pelo(a) Promotor(a) de Justiça que subscreve, vem apresentar ALEGAÇÕES FINAIS na ação penal em que figura(m) como réu(s) {{nome(s) do(s) réu(s) em caixa alta, com qualificação}}, denunciado(s) como incurso(s) no(s) art(s). {{capitulação penal}}, pelos fatos e fundamentos a seguir.
+2. O processo teve trâmite regular{{observacoes_processuais_se_houver}}.
 
-RELATÓRIO
-{{síntese da imputação constante da denúncia: data, hora, local e conduta atribuída a cada réu}}.
+3. A materialidade delitiva foi comprovada {{meios_de_prova_materialidade}}, cf. fls. {{numeros_de_folhas}}.
 
-PRELIMINARMENTE
-{{preencha aqui, rebatendo as preliminares, se existirem}}
+4. A autoria também foi determinada na prova oral coligida.
+{{resumo_depoimentos_vitima_e_testemunhas}}
 
-MÉRITO
-A materialidade delitiva está comprovada por {{documentos que comprovam a materialidade, com remissão a fls.}}.
-A autoria é certa e recai sobre {{nome(s) do(s) réu(s)}}, conforme se extrai de {{síntese fiel dos depoimentos de vítimas, testemunhas e réus, com prevalência da prova produzida em juízo quando houver audiência realizada, confrontada com a fase policial quando pertinente}}.
-{{réu(s)}} {{é/são}} {{sem antecedentes / com maus antecedentes / reincidente, conforme apurado na folha de antecedentes}}.
+Ao termo da instrução, tem-se que a condenação é medida de rigor, dada a confirmação dos fatos da denúncia {{qualificacao_da_prova_oral}}.
+{{fundamentacao_sobre_suficiencia_da_prova}}
 
-Diante do exposto, o Ministério Público requer a procedência da ação penal, para condenar {{nome(s) do(s) réu(s)}} como incurso(s) no(s) art(s). {{capitulação penal}}, nas penas correspondentes, observados os critérios legais de dosimetria e o regime cabível.
+5. No tocante à aplicação da pena, {{situacao_de_antecedentes}}.
 
-{{local}}, data do protocolo.
+6. Pelo exposto, requer-se a procedência da presente ação penal.
+
+Piracicaba, data do protocolo.
+
+Promotor de Justiça
 </template>
 
 ## RESTRIÇÕES
