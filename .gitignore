@@ -1,0 +1,4 @@
+# Exemplos reais e sigilosos usados como referência de estilo pelas skills.
+# Não devem subir ao repositório remoto.
+skills/*/exemplos/*
+!skills/*/exemplos/.gitkeep
